@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testportal2
+  annotations:
+    github.com/project-slug: Jhonson924/testportal2
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jhonson924
