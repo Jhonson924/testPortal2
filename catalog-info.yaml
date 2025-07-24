@@ -15,6 +15,19 @@ metadata:
       url: https://backstage.io/storybook
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
+  relations:
+    - type: partOf
+      target:
+        kind: System
+        name: dev-portal
+    - type: owner
+      target:
+        kind: Group
+        name: team-a
+    - type: providesApis
+      target:
+        kind: API
+        name: testportal2-api
   annotations:
     github.com/project-slug: Jhonson924/testportal2
     backstage.io/techdocs-ref: dir:.
